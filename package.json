@@ -1,0 +1,15 @@
+{
+  "name": "dep-weight",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "What a dependency tree costs, measured from registry metadata across npm, PyPI and Maven Central",
+  "license": "MIT",
+  "scripts": {
+    "npm-scan": "node registry-scan.mjs",
+    "pypi-scan": "node pypi-scan.mjs",
+    "maven-scan": "node maven-scan.mjs",
+    "report": "node report.mjs"
+  },
+  "dependencies": { "semver": "^7.6.0" }
+}
