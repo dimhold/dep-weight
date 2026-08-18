@@ -1,0 +1,74 @@
+[
+  {
+    "stack": "express",
+    "direct": 1,
+    "installed": 66,
+    "depth": 8,
+    "bytes": 2196451,
+    "files": 595,
+    "installMs": 1364,
+    "loaded": {
+      "packages": 65,
+      "files": 120
+    }
+  },
+  {
+    "stack": "next",
+    "direct": 3,
+    "installed": 21,
+    "depth": 4,
+    "bytes": 311468530,
+    "files": 8878,
+    "installMs": 10364,
+    "loaded": null
+  },
+  {
+    "stack": "nestjs",
+    "direct": 4,
+    "installed": 21,
+    "depth": 5,
+    "bytes": 6490143,
+    "files": 3282,
+    "installMs": 3304,
+    "loaded": {
+      "packages": 10,
+      "files": 565
+    }
+  },
+  {
+    "stack": "vite-react",
+    "direct": 3,
+    "installed": 17,
+    "depth": 3,
+    "bytes": 27716175,
+    "files": 298,
+    "installMs": 4557,
+    "loaded": null
+  },
+  {
+    "stack": "prisma",
+    "direct": 1,
+    "installed": 1,
+    "depth": 2,
+    "bytes": 76992088,
+    "files": 116,
+    "installMs": 4892,
+    "loaded": {
+      "packages": 2,
+      "files": 2
+    }
+  },
+  {
+    "stack": "axios",
+    "direct": 1,
+    "installed": 27,
+    "depth": 7,
+    "bytes": 2635798,
+    "files": 405,
+    "installMs": 866,
+    "loaded": {
+      "packages": 26,
+      "files": 65
+    }
+  }
+]
