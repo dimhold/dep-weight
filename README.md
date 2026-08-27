@@ -143,3 +143,42 @@ reading any code. The runs in [`logs/`](logs/) are the real ones, unedited.
   not a benchmark.
 
 MIT.
+
+## Prior work
+
+Checked 2026-08-27. Every neighboring question has an owner. The three
+headline measurements do not, as far as I could find.
+
+- Comparing dependency networks across ecosystems is a settled genre.
+  [Decan, Mens and Grosjean (2019)](https://doi.org/10.1007/s10664-017-9589-y)
+  compared the evolution of seven packaging ecosystems from Libraries.io data.
+  [deps.dev](https://deps.dev/) publishes resolved dependency graphs for six
+  ecosystems, [Ecosyste.ms](https://ecosyste.ms/) maintains continuously
+  updated registry metadata and this repository's counts are validated against
+  deps.dev in [VALIDATION.md](VALIDATION.md).
+- Historical resolution is taken for npm.
+  [npm-follower](https://doi.org/10.1145/3611643.3613094) archives every npm
+  version as published and the same group built a
+  [time travelling dependency resolver](https://arxiv.org/abs/2304.00394) to
+  study how semver updates flow. Their question is different but resolving npm
+  manifests as of past dates is already done. I found no equivalent for PyPI
+  or Maven Central.
+- Trust through the tree is measured for npm.
+  [Zimmermann et al. (2019)](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)
+  counted the packages and maintainers an install implicitly trusts,
+  [Zahan et al. (2022)](https://arxiv.org/abs/2112.10165) flagged install
+  scripts and maintainer reach as weak links and
+  [Duan et al. (2021)](https://www.ndss-symposium.org/ndss-paper/towards-measuring-supply-chain-attacks-on-package-managers-for-interpreted-languages/)
+  compared install time attack surface across npm, PyPI and RubyGems.
+- Outdatedness has its own literature under the name technical lag:
+  [Decan, Mens and Constantinou (2018)](https://doi.org/10.1109/ICSME.2018.00050)
+  for npm and [Kula et al. (2017)](https://doi.org/10.1007/s10664-017-9521-5)
+  on whether developers update at all.
+  [Soto-Valero et al. (2021)](https://doi.org/10.1007/s10664-020-09914-8)
+  measured bloated dependencies in Maven.
+
+What was not found anywhere: the same manifest resolved month by month across
+three ecosystems at once, the count of accounts able to publish into a named
+application's tree tracked over time and package age broken down by depth in
+the resolved tree. Searched Crossref, dblp, Semantic Scholar, arXiv, GitHub
+and the general web.
