@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "dep-weight"
+type: software
+authors:
+  - family-names: Semenkevich
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0009-3013-4978"
+version: "1.0.0"
+date-released: "2026-08-27"
+license: MIT
+repository-code: "https://github.com/dimhold/dep-weight"
+abstract: "What a dependency tree costs: 1,050 resolutions across npm, PyPI and Maven Central, from registry metadata only."
+keywords:
+  - "dependencies"
+  - "software ecosystems"
+  - "npm"
+  - "PyPI"
+  - "Maven Central"
+  - "measurement"
