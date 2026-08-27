@@ -1,5 +1,7 @@
 # dep-weight
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22128854.svg)](https://doi.org/10.5281/zenodo.22128854)
+
 What a dependency tree actually costs, measured from registry metadata across
 three ecosystems: **npm, PyPI and Maven Central**.
 
